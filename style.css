@@ -8,6 +8,7 @@ body {
     width: 175px;
     margin-bottom: 50px;
     border-radius: 50%;
+    padding-top: 10%;
 }
 
 #sectionOne {
@@ -50,7 +51,7 @@ label {
 .menu {
     font-size: 15px;
     color: black;
-    font-family: sans-serif;
+
     list-style: none;
     position: absolute;
     top: 10px;
@@ -61,7 +62,7 @@ label {
 }
 
 .items {
-font-size: 20px;
+    font-size: 20px;
     padding-right: 5px;
     padding-left: 5px;
     float: left;
@@ -82,4 +83,9 @@ a {
 
 html {
     scroll-behavior: smooth;
+}
+
+.work {
+    padding-left: 25%;
+    padding-right: 25%;
 }
